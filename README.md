@@ -29,10 +29,10 @@ prefix-list drop-src {
 
 Now with py-junos-eznc I can add and remove entries from prefix list and thus control what JunOS divice is blocking.
 
-== Install ==
-Copy **prefix_*.py** to /usr/local/lib/python2.7/dist-packages/jnpr/junos/cfg/
+## Install ##
+Copy **prefix_*.py** to /usr/local/lib/python2.7/dist-packages/jnpr/junos/cfg/ or where you find it appropriate.
 
-== Usage ==
+## Usage ##
 An example script:
 ```py
 #!/usr/bin/env python
